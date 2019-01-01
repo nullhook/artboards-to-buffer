@@ -22,8 +22,7 @@ new Sketch({file: sketchFile})
         .catch(console.log);
 ```
 
-You can use the wrapper below to send arguments to sketchtool
-note: you must include a binary path to your sketchtool
+You can use the wrapper below to send arguments to sketchtool (you must include a binary path to your sketchtool)
 ```javascript
 new Exporter({ bin: sketchToolBin })
     .run([args]);
