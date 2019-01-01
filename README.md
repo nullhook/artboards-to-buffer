@@ -1,10 +1,10 @@
 ## artboards-to-buffer
 
-Parse artboards inside any sketch files and get the buffer of the artboards
+Parse artboards inside any sketch file and get buffer data
 
 ## Usage
 
-To get a Sketch file's meta data
+To get metadata of a sketch file
 ```javascript
 new Sketch({file: sketchFile})
         .asExport({ outputPath })
@@ -13,7 +13,7 @@ new Sketch({file: sketchFile})
         .catch(console.log);
 ```
 
-To export an artboard and get the contents
+To export an artboard and get buffer data
 ```javascript
 new Sketch({file: sketchFile})
         .asExport({ outputPath })
@@ -22,7 +22,8 @@ new Sketch({file: sketchFile})
         .catch(console.log);
 ```
 
-Sketch ships with a sketchtool binary and you can use the wrapper below
+You can use the wrapper below to send arguments to sketchtool
+note: you must include a binary path to your sketchtool
 ```javascript
 new Exporter({ bin: sketchToolBin })
     .run([args]);
