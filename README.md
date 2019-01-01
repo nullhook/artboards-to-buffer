@@ -2,6 +2,11 @@
 
 Parse artboards inside any sketch file and get buffer data
 
+## Installation
+```
+npm install jsonfeed-to-atom
+```
+
 ## Usage
 
 To get metadata of a sketch file
