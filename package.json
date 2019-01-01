@@ -1,15 +1,15 @@
 {
   "name": "artboards-to-buffer",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Parse artboards inside any sketch file and get buffer data",
   "main": "index.js",
   "scripts": {
     "processor": "./node_modules/.bin/babel-node test/sum.js",
     "example": "./node_modules/.bin/babel-node lib/example.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["sketchtool", "artboards", "buffer", "parse sketch", "sketch file"],
+  "author": "Taher A",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.3",
