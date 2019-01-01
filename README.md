@@ -5,7 +5,7 @@ Parse artboards inside any sketch files and get the buffer of the artboards
 ## Usage
 
 To get a Sketch file's meta data
-```
+```javascript
 new Sketch({file: sketchFile})
         .asExport({ outputPath })
         .getMetaData( new Exporter({ bin: sketchToolBin }) )
@@ -14,7 +14,7 @@ new Sketch({file: sketchFile})
 ```
 
 To export an artboard and get the contents
-```
+```javascript
 new Sketch({file: sketchFile})
         .asExport({ outputPath })
         .getArtboardData(new Exporter({ bin: sketchToolBin }), '4535252D-1C8C-4B56-85D8-4E36D7B00D37')
@@ -23,7 +23,7 @@ new Sketch({file: sketchFile})
 ```
 
 Sketch ships with a sketchtool binary and you can use the wrapper below
-```
+```javascript
 new Exporter({ bin: sketchToolBin })
     .run([args]);
 ```
