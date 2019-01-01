@@ -2,11 +2,10 @@
 	"parser": "babel-eslint",
 	"env": {
 		"browser": true,
-		"node": true
+		"node": true,
+		"jest/globals": true
 	},
-	"plugins": [
-		"babel"
-	],
+	"plugins": [ "babel", "jest" ],
 	"rules": {
 		"prefer-arrow-callback": "error",
 		"wrap-iife": ["error", "inside"],
