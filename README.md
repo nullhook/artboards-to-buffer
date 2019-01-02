@@ -9,6 +9,11 @@ npm install artboards-to-buffer
 
 ## Usage
 
+How to import
+```javascript
+import { Sketch, Exporter } from 'artboards-to-buffer';
+```
+
 To get metadata of a sketch file
 ```javascript
 new Sketch({file: sketchFile})
@@ -22,8 +27,8 @@ To export an artboard and get buffer data
 ```javascript
 new Sketch({file: sketchFile})
         .asExport({ outputPath })
-        .getArtboardData(new Exporter({ bin: sketchToolBin }), '4535252D-1C8C-4B56-85D8-4E36D7B00D37')
-        .then(data => console.log)
+        .getArtboardData( new Exporter({ bin: sketchToolBin }), '4535252D-1C8C-4B56-85D8-4E36D7B00D37' )
+        .then(console.log)
         .catch(console.log);
 ```
 
