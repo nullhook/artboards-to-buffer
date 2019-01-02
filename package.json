@@ -1,6 +1,6 @@
 {
   "name": "artboards-to-buffer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Parse artboards inside any sketch file and get buffer data",
   "main": "index.js",
   "scripts": {
