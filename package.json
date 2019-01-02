@@ -1,13 +1,13 @@
 {
   "name": "artboards-to-buffer",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Parse artboards inside any sketch file and get buffer data",
   "main": "index.js",
   "scripts": {
     "processor": "./node_modules/.bin/babel-node test/sum.js",
     "example": "./node_modules/.bin/babel-node lib/example.js",
     "test": "jest",
-    "deploy": "git push && npm publish"
+    "deploy": "git commit -m 'bump to $npm_package_version' && git push && npm publish"
   },
   "keywords": ["sketchtool", "artboards", "buffer", "parse sketch", "sketch file", "sketch parser", "sketch artboards"],
   "author": "Taher A",
