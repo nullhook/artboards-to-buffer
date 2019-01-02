@@ -1,8 +1,8 @@
-import Promise from 'bluebird';
-import { spawn } from 'child_process';
-import path from 'path';
-import c from 'template-colors';
-import fs from 'fs';
+const Promise = require('bluebird');
+const { spawn } = require('child_process');
+const path = require('path');
+const c = require('template-colors');
+const fs = require('fs');
 
 class Sketch {
 

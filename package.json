@@ -6,7 +6,8 @@
   "scripts": {
     "processor": "./node_modules/.bin/babel-node test/sum.js",
     "example": "./node_modules/.bin/babel-node lib/example.js",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "git push && npm publish"
   },
   "keywords": ["sketchtool", "artboards", "buffer", "parse sketch", "sketch file", "sketch parser", "sketch artboards"],
   "author": "Taher A",
