@@ -1,5 +1,5 @@
 const path = require('path');
-const { Sketch, Exporter } = require('../lib/index');
+const { Sketch, Exporter } = require('../index');
 
 const sketchToolBin = '/Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool';
 const sketchFile = path.resolve('./stylebee-holiday-card.sketch');
