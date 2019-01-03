@@ -1,33 +1,41 @@
 {
-  "name": "artboards-to-buffer",
-  "version": "1.4.0",
-  "description": "Parse artboards inside any sketch file and get buffer data",
-  "main": "index.js",
-  "scripts": {
-    "processor": "./node_modules/.bin/babel-node test/sum.js",
-    "example": "./node_modules/.bin/babel-node lib/example.js",
-    "test": "jest",
-    "deploy": "git commit -m 'bump to $npm_package_version' && git push && npm publish"
-  },
-  "keywords": ["sketchtool", "artboards", "buffer", "parse sketch", "sketch file", "sketch parser", "sketch artboards"],
-  "author": "Taher A",
-  "license": "ISC",
-  "dependencies": {
-    "bluebird": "^3.5.3",
-    "template-colors": "0.0.7"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.2.2",
-    "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.2.3",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.4",
-    "babel-runtime": "^6.26.0",
-    "eslint": "^5.9.0",
-    "eslint-plugin-babel": "^5.2.1",
-    "eslint-plugin-jest": "^22.1.2",
-    "jest": "^23.6.0"
-  }
+	"name": "artboards-to-buffer",
+	"version": "1.5.0",
+	"description": "Parse artboards inside any sketch file and get buffer data",
+	"main": "index.js",
+	"scripts": {
+		"processor": "./node_modules/.bin/babel-node test/sum.js",
+		"example": "./node_modules/.bin/babel-node lib/example.js",
+		"test": "jest",
+		"deploy": "git commit -m 'bump to 1.5.0' && git push && npm publish"
+	},
+	"keywords": ["sketchtool", "artboards", "buffer", "parse sketch", "sketch file", "sketch parser", "sketch artboards"],
+	"author": "Taher A",
+	"license": "ISC",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/rehat101/artboards-to-buffer"
+	},
+	"os" : [ "darwin", "linux" ],
+	"engines" : {
+		"node" : ">=8.0.0"
+	},
+	"dependencies": {
+		"bluebird": "^3.5.3",
+		"template-colors": "0.0.7"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.1.5",
+		"@babel/core": "^7.2.2",
+		"@babel/node": "^7.0.0",
+		"@babel/preset-env": "^7.2.3",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-eslint": "^10.0.1",
+		"babel-loader": "^8.0.4",
+		"babel-runtime": "^6.26.0",
+		"eslint": "^5.9.0",
+		"eslint-plugin-babel": "^5.2.1",
+		"eslint-plugin-jest": "^22.1.2",
+		"jest": "^23.6.0"
+	}
 }
